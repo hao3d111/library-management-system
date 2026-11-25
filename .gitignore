@@ -1,0 +1,41 @@
+## .NET / Visual Studio / Rider
+bin/
+obj/
+out/
+publish/
+artifacts/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+*.nupkg
+*.snupkg
+TestResults/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## Local Databases & Secrets
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.ndf
+appsettings.Development.local.json
+appsettings.Local.json
+
+## OS & Temp Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
