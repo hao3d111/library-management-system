@@ -4,9 +4,6 @@ A full-stack, role-based **Library Management System** built with **ASP.NET Core
 
 ## Architecture
 
-Strictly follows a **Three-Layer Architecture** (see [GEMINI.md](GEMINI.md)):
-
-```text
 src/
 ├── LMS.WebApi/     # Presentation Layer — Thin REST controllers, JWT RBAC, & static HTML/CSS/JS UI
 ├── LMS.Business/   # Business Logic Layer — Services, ISBN validation, fine rules, & DTOs
