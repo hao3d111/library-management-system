@@ -2,15 +2,6 @@
 
 A full-stack, role-based **Library Management System** built with **ASP.NET Core Web API (.NET 9)**, **Entity Framework Core**, **SQL Server** (with automatic portable **SQLite** fallback), and a responsive **HTML / CSS / JavaScript** frontend.
 
-## Architecture
-
-src/
-├── LMS.WebApi/     # Presentation Layer — Thin REST controllers, JWT RBAC, & static HTML/CSS/JS UI
-├── LMS.Business/   # Business Logic Layer — Services, ISBN validation, fine rules, & DTOs
-└── LMS.Data/       # Data Access Layer — EF Core DbContext, Code-First Migrations, Repositories, & UnitOfWork
-tests/
-└── LMS.Tests/      # Automated xUnit Unit & Integration Test Suite (TC01–TC24 + Sprint 3 tests)
-```
 
 ## Key Features
 
